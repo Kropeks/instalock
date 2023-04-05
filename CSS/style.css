@@ -245,7 +245,7 @@ body{
     width: 100%;
     height: 120vh;
     position: absolute;
-    background-image: url("IMAGES/kessoku.png");
+    background-image: url("../IMAGES/kessoku.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;

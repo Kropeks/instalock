@@ -11,7 +11,7 @@
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
-    background: url('../gallery/harcol.jpg');
+    background: url('../IMAGES/harcol.jpg');
 }
 
 a{
@@ -33,31 +33,31 @@ section{
 
 .one{
     background-color: green;
-    background-image: url('../gallery/harcol.jpg');
+    background-image: url('../IMAGES/harcol.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .two{
     background-color: yellow;
-    background-image: url('../gallery/zayncol.png');
+    background-image: url('../IMAGES/zayncol.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .three{
     background-color: red;
-    background-image: url('../gallery/liamcol.png');
+    background-image: url('../IMAGES/liamcol.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .four{
     background-color: blue;
-    background-image: url('../gallery/louiscol.png');
+    background-image: url('../IMAGES/louiscol.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .five{
     background-color: white;
-    background-image: url('../gallery/niallcol.png');
+    background-image: url('../IMAGES/niallcol.png');
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Permanent Marker;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Permanent Marker;
+}
+
+/*--blog----------------------------*/
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0, 0,0, 0.05);
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url("../IMAGES/redblack.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: #000000;
+}
+.blog-heading span:hover{
+    color: #ffffff;
+    transition: all ease 0.3;
+
+}
+.blog-heading h3{
+    font-size: 2.4rem;
+    color: #ff0000;
+    font-weight: 600;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.493);
+    border: 1px solid #ececec80;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: below;
+    border: 1px solid #000000;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text .blog-title{
+    color: rgb(253, 0, 0);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.blog-text .blog-title:hover{
+    color: rgb(255, 255, 255);
+    transition: all ease 0.3;
+}
+.blog-text p{
+    color: #ffffff;
+    font-size: 1.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blog-text a{
+    color: #ff0000;
+}
+.blog-text a:hover{
+    color: #ffffff;
+    transition: all ease 0.3;
+    font-size: 1.2rem;
+}
+.blog-heading a{
+    color: #ff0000;
+}
+.blog-heading a:hover{
+    color: #ffffff;
+}

@@ -11,7 +11,7 @@ body{
     height: 100vh;
     position: absolute;
     background-image: url("../IMAGES/light.jpg");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     z-index: -1;

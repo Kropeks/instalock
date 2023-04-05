@@ -11,7 +11,7 @@
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
-    background: url('../IMAGES/harcol.jpg');
+    background: url('../gallery/harcol.jpg');
 }
 
 a{
@@ -31,39 +31,33 @@ section{
     scroll-snap-align: start;
 }
 
-.text-box h1{
-    color: green;
-    text-shadow: 1px 1px 4px #000;
-    font-size: 3rem;
-}
-
 .one{
     background-color: green;
-    background-image: url('../IMAGES/harcol.jpg');
+    background-image: url('../gallery/harcol.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .two{
     background-color: yellow;
-    background-image: url('../IMAGES/zayncol.png');
+    background-image: url('../gallery/zayncol.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .three{
     background-color: red;
-    background-image: url('../IMAGES/liamcol.png');
+    background-image: url('../gallery/liamcol.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .four{
     background-color: blue;
-    background-image: url('../IMAGES/louiscol.png');
+    background-image: url('../gallery/louiscol.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .five{
     background-color: white;
-    background-image: url('../IMAGES/niallcol.png');
+    background-image: url('../gallery/niallcol.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -73,8 +67,15 @@ section{
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 31.9%;
+    width: 31.9%; 
 }
+
+.text-box h1{
+    color: green;
+    text-shadow: 1px 1px 4px #000;
+    font-size: 3rem;
+}
+
 .text-box p{
     color: rgb(70, 161, 83);
     font-size: 2rem;
@@ -86,11 +87,10 @@ section{
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 31.9%;
-    
+    width: 31.9%; 
+}
 .pineapple h1{
     color: yellow;
-    text-shadow: 1px 1px 4px #000;
     font-size: 3rem;
 }
 .pineapple p{
@@ -105,10 +105,9 @@ section{
     display: flex;
     flex-direction: column;
     width: 31.9%; 
-    
+}
 .apple h1{
     color: red;
-    text-shadow: 1px 1px 4px #000;
     font-size: 3rem;
 }
 .apple p{
@@ -125,7 +124,6 @@ section{
 }
 .orange h1{
     color: blue;
-    text-shadow: 1px 1px 4px #000;
     font-size: 3rem;
 }
 .orange p{
@@ -142,7 +140,6 @@ section{
 }
 .sweet h1{
     color: white;
-    text-shadow: 1px 1px 4px #000;
     font-size: 3rem;
 }
 .sweet p{

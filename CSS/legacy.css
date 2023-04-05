@@ -31,7 +31,7 @@ section{
     scroll-snap-align: start;
 }
 
-h1{
+.text-box h1{
     color: green;
     text-shadow: 1px 1px 4px #000;
     font-size: 3rem;
@@ -71,22 +71,45 @@ h1{
     float: left;
     max-width:600px ;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 31.9%;
 }
 .text-box p{
     color: rgb(70, 161, 83);
     font-size: 2rem;
     text-shadow: 1px 1px 1px #000;
 }
+.two img{
+    float: left;
+    max-width:600px ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 31.9%;
+    
 .pineapple h1{
     color: yellow;
+    text-shadow: 1px 1px 4px #000;
+    font-size: 3rem;
 }
 .pineapple p{
     color: rgb(239, 255, 19);
     font-size: 1.5rem;
     text-shadow: 1px 1px 1px #000;
 }
+.three img{
+    float: left;
+    max-width:600px ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 31.9%; 
+    
 .apple h1{
     color: red;
+    text-shadow: 1px 1px 4px #000;
+    font-size: 3rem;
 }
 .apple p{
     color: rgb(214, 22, 22);
@@ -96,9 +119,14 @@ h1{
 .four img{
     float: left;
     max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 31.9%; 
 }
 .orange h1{
     color: blue;
+    text-shadow: 1px 1px 4px #000;
+    font-size: 3rem;
 }
 .orange p{
     color: rgb(85, 87, 250);
@@ -108,9 +136,14 @@ h1{
 .five img{
     float: left;
     max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 31.9%; 
 }
 .sweet h1{
     color: white;
+    text-shadow: 1px 1px 4px #000;
+    font-size: 3rem;
 }
 .sweet p{
     color: white;

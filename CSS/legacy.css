@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    background: url('../IMAGES/harcol.jpg');
+}
+
+a{
+    text-decoration: none;
+}
+.container a{
+    color: #ffffff;
+    transition: all ease 0.3;
+    font-size: 2rem;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+h1{
+    color: green;
+    text-shadow: 1px 1px 4px #000;
+    font-size: 3rem;
+}
+
+.one{
+    background-color: green;
+    background-image: url('../IMAGES/harcol.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two{
+    background-color: yellow;
+    background-image: url('../IMAGES/zayncol.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three{
+    background-color: red;
+    background-image: url('../IMAGES/liamcol.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.four{
+    background-color: blue;
+    background-image: url('../IMAGES/louiscol.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.five{
+    background-color: white;
+    background-image: url('../IMAGES/niallcol.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one img{
+    float: left;
+    max-width:600px ;
+    position: relative;
+}
+.text-box p{
+    color: rgb(70, 161, 83);
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px #000;
+}
+.pineapple h1{
+    color: yellow;
+}
+.pineapple p{
+    color: rgb(239, 255, 19);
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px #000;
+}
+.apple h1{
+    color: red;
+}
+.apple p{
+    color: rgb(214, 22, 22);
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #000; 
+}
+.four img{
+    float: left;
+    max-width: 600px;
+}
+.orange h1{
+    color: blue;
+}
+.orange p{
+    color: rgb(85, 87, 250);
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #000; 
+}
+.five img{
+    float: left;
+    max-width: 600px;
+}
+.sweet h1{
+    color: white;
+}
+.sweet p{
+    color: white;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #000; 
+}
+
